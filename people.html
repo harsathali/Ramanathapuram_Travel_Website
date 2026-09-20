@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous People | Dr. A.P.J. Abdul Kalam & Kamal Haasan | Ramanathapuram</title>
+    <meta name="description" content="Discover the legendary personalities born in Ramanathapuram District: Dr. A.P.J. Abdul Kalam (born in Rameswaram) and Kamal Haasan (born in Paramakudi). Complete biographical tributes and timelines.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page-people">
+
+    <div id="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="site-header" id="main-header">
+        <div class="nav-container-inner navbar">
+            <a href="index.html" class="header-brand navbar-brand" aria-label="Ramanathapuram Tourism Home">
+                <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                <div class="brand-text-group">
+                    <span class="brand-title on-hero">RAMANATHAPURAM</span>
+                    <span class="brand-tagline on-hero">Where Heritage Meets the Sea</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link on-hero">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link on-hero">About</a></li>
+                    
+                    <li class="nav-item has-dropdown">
+                        <a href="attractions.html" class="nav-link on-hero">
+                            Attractions <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="attractions.html#ramanathaswamy"><i class="fa-solid fa-om"></i> Ramanathaswamy Temple</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#pamban"><i class="fa-solid fa-bridge"></i> Pamban Bridge</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi"><i class="fa-solid fa-monument"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#kalam"><i class="fa-solid fa-star"></i> A.P.J. Abdul Kalam Memorial</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#agni"><i class="fa-solid fa-water"></i> Agni Theertham</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#uthirakosamangai"><i class="fa-solid fa-gem"></i> Thiru Uthirakosamangai</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#thiruppullani"><i class="fa-solid fa-place-of-worship"></i> Thiruppullani</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi-beach"><i class="fa-solid fa-umbrella-beach"></i> Dhanushkodi Beach</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-dropdown">
+                        <a href="places.html" class="nav-link on-hero">
+                            Major Places <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="places.html#ramanathapuram"><i class="fa-solid fa-chess-rook"></i> Ramanathapuram</a></li>
+                            <li class="dropdown-item"><a href="places.html#rameswaram"><i class="fa-solid fa-gopuram"></i> Rameswaram</a></li>
+                            <li class="dropdown-item"><a href="places.html#paramakudi"><i class="fa-solid fa-masks-theater"></i> Paramakudi</a></li>
+                            <li class="dropdown-item"><a href="places.html#dhanushkodi"><i class="fa-solid fa-compass"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="places.html#kilakarai"><i class="fa-solid fa-anchor"></i> Kilakarai</a></li>
+                            <li class="dropdown-item"><a href="places.html#uthirakosamangai"><i class="fa-solid fa-tree"></i> Thiru Uthirakosamangai</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="food.html" class="nav-link on-hero">Food</a></li>
+                    <li class="nav-item"><a href="culture.html" class="nav-link on-hero">Culture</a></li>
+                    <li class="nav-item"><a href="people.html" class="nav-link on-hero active">Famous People</a></li>
+                    <li class="nav-item"><a href="guide.html" class="nav-link on-hero">Travel Guide</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link on-hero">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="ist-clock-pill on-hero">
+                            <i class="fa-regular fa-clock clock-icon-pulse"></i>
+                            <span class="live-ist-clock">Loading IST...</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-widgets">
+                <button class="theme-toggle-btn nav-theme-toggle theme-toggle on-hero" aria-label="Toggle dark and light mode" title="Toggle dark and light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger-btn hamburger-menu on-hero" aria-label="Open Navigation Drawer">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-nav-drawer" role="dialog" aria-modal="true">
+        <div class="mobile-drawer-header">
+            <span class="mobile-drawer-title">RAMANATHAPURAM</span>
+            <button class="mobile-close-btn" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-nav-body">
+            <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="about.html" class="mobile-nav-link">About <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="attractions.html" class="mobile-nav-link">Attractions <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="places.html" class="mobile-nav-link">Major Places <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="food.html" class="mobile-nav-link">Food <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="culture.html" class="mobile-nav-link">Culture <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="people.html" class="mobile-nav-link active">Famous People <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="guide.html" class="mobile-nav-link">Travel Guide <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="mobile-drawer-footer">
+            <span class="live-ist-clock" style="font-size: 0.85rem;"></span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="theme-toggle-btn" aria-label="Toggle dark and light mode" title="Toggle dark and light mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="hero-bg-media">
+                <img src="assets/images/hero/hero_coastal_ramnad.jpg" alt="Ramanathapuram Legends" class="hero-bg-img">
+            </div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <div class="breadcrumb-nav" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.65rem;"></i> <span>Famous People</span>
+                    </div>
+                    <a href="index.html" class="btn-go-home"><i class="fa-solid fa-arrow-left"></i> Go to Home</a>
+                </div>
+                <h1 class="page-hero-title typing-title">FAMOUS PERSONALITIES</h1>
+                <p class="page-hero-subtitle">Visionaries, Pioneers & Icons Shaped by Ramanathapuram's Soil</p>
+
+                <!-- Scroll Indicator (Requirement 22) -->
+                <a href="#kalam" class="scroll-indicator-wrap" aria-label="Scroll to Explore">
+                    <span class="scroll-indicator-label">Scroll to Explore</span>
+                    <div class="scroll-indicator-line"></div>
+                    <i class="fa-solid fa-chevron-down scroll-indicator-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- PROFILE 01: DR. A.P.J. ABDUL KALAM -->
+        <section class="content-section" style="background: var(--bg-surface);" id="kalam">
+            <div class="person-editorial-layout" data-animate="fade-right">
+                <!-- Real Photograph Container -->
+                <div class="person-media-wrap spring-jump">
+                    <img src="assets/images/people/apj_abdul_kalam.jpg" alt="Dr. A.P.J. Abdul Kalam" loading="lazy" decoding="async" class="person-real-photo" data-lightbox-src="assets/images/people/apj_abdul_kalam.jpg" data-lightbox-caption="Dr. A.P.J. Abdul Kalam — Official Portrait, 11th President of India">
+                    <div class="person-photo-badge">
+                        <i class="fa-solid fa-shield-check"></i> Official Presidential Portrait
+                    </div>
+                </div>
+
+                <!-- Biography & Timeline -->
+                <div class="person-bio-wrap">
+                    <div class="person-origin-badge badge-rameswaram">
+                        <i class="fa-solid fa-gopuram"></i> BORN IN RAMESWARAM
+                    </div>
+                    <h2 class="person-name">A.P.J. ABDUL KALAM</h2>
+                    <p style="color: var(--color-ocean-blue); font-weight: 600; font-size: 1.05rem;">
+                        Avul Pakir Jainulabdeen Abdul Kalam (15 October 1931 – 27 July 2015)
+                    </p>
+                    <blockquote class="person-quote">
+                        "Dream is not that which you see while sleeping; it is something that does not let you sleep."
+                    </blockquote>
+                    <p>
+                        Born on 15 October 1931 in the island town of Rameswaram into a Tamil Muslim marakkayar family, Dr. Kalam rose from modest beginnings delivering newspapers along the coastal railway tracks to become India’s supreme missile scientist, aerospace visionary, and the beloved 11th President of India (2002–2007).
+                    </p>
+                    <p>
+                        Throughout his illustrious life, his bond with Rameswaram remained unbroken. He credited his deep spiritual pluralism and scientific curiosity to the inclusive seaside ethos of Rameswaram, where the temple priests and mosque imams shared meals and philosophical dialogues.
+                    </p>
+
+                    <!-- Kalam Timeline -->
+                    <div class="biography-timeline">
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1931 — Rameswaram Childhood</div>
+                            <p class="timeline-text">
+                                Raised on Mosque Street, Rameswaram. Attended Schwartz Higher Secondary School in Ramanathapuram, walking miles daily with a fierce thirst for knowledge.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1969–1982 — ISRO & SLV-III Triumph</div>
+                            <p class="timeline-text">
+                                Served as Project Director of India's first indigenous Satellite Launch Vehicle (SLV-III), successfully deploying the Rohini satellite into orbit in 1980.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1982–1999 — Missile Pioneer & Pokhran-II</div>
+                            <p class="timeline-text">
+                                Chief of DRDO, spearheading the Integrated Guided Missile Development Programme (Agni and Prithvi missiles), earning the title <em>"Missile Man of India"</em>.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">2002–2007 — 11th President of India</div>
+                            <p class="timeline-text">
+                                Unanimously elected as India’s President. Re-opened Rashtrapati Bhavan to students, youths, and farmers, forever immortalized as the <em>"People's President"</em>.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">2017 — Pei Karumbu National Memorial</div>
+                            <p class="timeline-text">
+                                Laid to eternal rest at Pei Karumbu in his beloved Rameswaram, where the grand National Memorial now stands as an international monument of inspiration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROFILE 02: KAMAL HAASAN -->
+        <section class="content-section" style="background: var(--bg-surface-alt);" id="kamal">
+            <div class="person-editorial-layout reverse" data-animate="fade-left">
+                <!-- Real Photograph Container -->
+                <div class="person-media-wrap spring-jump">
+                    <img src="assets/images/people/kamal_haasan.jpg" alt="Kamal Haasan" loading="lazy" decoding="async" class="person-real-photo" data-lightbox-src="assets/images/people/kamal_haasan.jpg" data-lightbox-caption="Kamal Haasan — Official Portrait, Legendary Actor & Filmmaker">
+                    <div class="person-photo-badge">
+                        <i class="fa-solid fa-film"></i> Authentic Portrait Photograph
+                    </div>
+                </div>
+
+                <!-- Biography & Timeline -->
+                <div class="person-bio-wrap">
+                    <div class="person-origin-badge badge-paramakudi">
+                        <i class="fa-solid fa-masks-theater"></i> BORN IN PARAMAKUDI
+                    </div>
+                    <h2 class="person-name">KAMAL HAASAN</h2>
+                    <p style="color: var(--color-ocean-blue); font-weight: 600; font-size: 1.05rem;">
+                        Born 7 November 1954 in Paramakudi, Ramanathapuram District
+                    </p>
+                    <blockquote class="person-quote">
+                        "Cinema is not just entertainment; it is the mirror of society, a canvas where courage and art collide."
+                    </blockquote>
+                    <p>
+                        Born in Paramakudi into the family of criminal lawyer D. Srinivasan, Kamal Haasan’s extraordinary artistic journey began right on the banks of the Vaigai River. Beginning as a child artist at the age of six in <em>Kalathur Kannamma</em> (1960)—which won him the President's Gold Medal—he went on to redefine Indian cinema across six decades.
+                    </p>
+                    <p>
+                        Actor, director, screenwriter, classical Bharatanatyam dancer, playback singer, and lyricist, Kamal Haasan has won 4 National Film Awards, 19 Filmfare Awards, and holds the historic distinction of having submitted the highest number of films (seven) by an Indian actor for Academy Award consideration.
+                    </p>
+
+                    <!-- Kamal Timeline -->
+                    <div class="biography-timeline">
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1954 — Paramakudi Roots</div>
+                            <p class="timeline-text">
+                                Born in Paramakudi, Ramanathapuram. The town’s rich linguistic nuances and artistic warmth deeply influenced his storytelling voice and cinematic realism.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1960 — Child Prodigy & President's Gold Medal</div>
+                            <p class="timeline-text">
+                                Made his screen debut in <em>Kalathur Kannamma</em> at age six, instantly recognized by President Dr. S. Radhakrishnan for his naturalistic emotional acting.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1970s–1980s — The Golden Auteur Era</div>
+                            <p class="timeline-text">
+                                Collaborated with legendary filmmaker K. Balachander. Delivered pathbreaking masterworks like <em>16 Vayathinile</em>, <em>Moondram Pirai</em> (National Award), and Mani Ratnam’s magnum opus <em>Nayakan</em> (featured in TIME magazine’s All-Time 100 Best Films).
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">1990s–2000s — Directorial Mastery & Innovation</div>
+                            <p class="timeline-text">
+                                Wrote and directed cinema milestones including <em>Hey Ram</em>, <em>Virumaandi</em>, and <em>Dasavathaaram</em> (portraying ten distinct characters), pioneering sync sound, live orchestra scores, and advanced prosthetics in Indian cinema.
+                            </p>
+                        </div>
+                        <div class="timeline-entry">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-year">Present — Global Cinematic Icon</div>
+                            <p class="timeline-text">
+                                Honoured with the Padma Shri (1990), Padma Bhushan (2014), and France’s prestigious Chevalier de l'Ordre des Arts et des Lettres (2016). Continues to shatter cinematic boundaries with global blockbusters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="content-section" style="background: var(--bg-surface); padding-top: 40px;">
+            <div class="final-cta-banner spring-jump">
+                <h2>VISIT THE TOWNS OF THESE ICONS</h2>
+                <p>Visit Rameswaram where Dr. Kalam grew up and Paramakudi where Kamal Haasan was born.</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="guide.html" class="btn btn-gold spring-jump"><i class="fa-solid fa-route"></i> Travel Guide</a>
+                    <a href="places.html" class="btn btn-secondary spring-jump"><i class="fa-solid fa-compass"></i> Explore Major Places</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Image Lightbox Modal -->
+    <div id="lightbox-modal" role="dialog" aria-modal="true">
+        <button class="lightbox-btn lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-btn lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-btn lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Master Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="header-brand navbar-brand" style="margin-bottom: 16px; display: inline-flex;">
+                    <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                    <div class="brand-text-group">
+                        <span class="brand-title" style="color: var(--color-warm-sand);">RAMANATHAPURAM</span>
+                        <span class="brand-tagline" style="color: var(--color-ocean-light);">Where Heritage Meets the Sea</span>
+                    </div>
+                </a>
+                <p>Official district tourism and heritage exploration portal for Ramanathapuram, Tamil Nadu, India.</p>
+                <div class="footer-social-row">
+                    <a href="https://instagram.com/im__harsath" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/917339454474" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:+917339454474" class="footer-social-btn"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Iconic Personalities</h4>
+                <ul class="footer-links">
+                    <li><a href="#kalam"><i class="fa-solid fa-star" style="font-size: 0.75rem;"></i> Dr. A.P.J. Abdul Kalam</a></li>
+                    <li><a href="#kamal"><i class="fa-solid fa-film" style="font-size: 0.75rem;"></i> Kamal Haasan</a></li>
+                    <li><a href="attractions.html#kalam"><i class="fa-solid fa-monument" style="font-size: 0.75rem;"></i> Pei Karumbu Memorial</a></li>
+                    <li><a href="places.html#paramakudi"><i class="fa-solid fa-masks-theater" style="font-size: 0.75rem;"></i> Paramakudi Town</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="attractions.html">Attractions (8)</a></li>
+                    <li><a href="food.html">Coastal Food</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Tourism Assistance</h4>
+                <p style="color: var(--color-warm-sand); font-weight: 600;">
+                    Harsath Ali A<br>
+                    Phone: +91 7339454474<br>
+                    Paramakudi, Tamil Nadu
+                </p>
+                <div style="margin-top: 14px;">
+                    <span style="font-size: 0.8rem; color: #9BB1BA; display: block;">Local IST Clock:</span>
+                    <span class="live-ist-clock" style="color: var(--color-warm-gold); font-weight: 700;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ramanathapuram District Tourism Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating AUDIO Button -->
+    <button id="floating-audio-pill" class="floating-audio-pill" aria-label="Toggle ocean ambience" title="Toggle ocean ambience" aria-pressed="true">
+        <i class="fa-solid fa-volume-high"></i>
+        <span class="audio-pill-label">AUDIO</span>
+    </button>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- External Animation & Interactive Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Audio Ambience Engine -->
+    <script src="js/audio-ambience.js"></script>
+
+    <!-- Site Master Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!-- Mouse Tracking Cursor Glow (Positioned at bottom of DOM) -->
+    <div id="cursor-glow"></div>
+</body>
+</html>
