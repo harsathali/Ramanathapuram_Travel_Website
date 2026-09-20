@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major Places | Ramanathapuram District Tourism</title>
+    <meta name="description" content="Explore the major cultural, spiritual and historic places of Ramanathapuram District: Ramanathapuram, Rameswaram, Paramakudi, Dhanushkodi, Kilakarai, and Thiru Uthirakosamangai.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page-places">
+
+    <div id="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="site-header" id="main-header">
+        <div class="nav-container-inner">
+            <a href="index.html" class="header-brand" aria-label="Ramanathapuram Tourism Home">
+                <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                <div class="brand-text-group">
+                    <span class="brand-title on-hero">RAMANATHAPURAM</span>
+                    <span class="brand-tagline on-hero">Where Heritage Meets the Sea</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link on-hero">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link on-hero">About</a></li>
+                    
+                    <li class="nav-item has-dropdown">
+                        <a href="attractions.html" class="nav-link on-hero">
+                            Attractions <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="attractions.html#ramanathaswamy"><i class="fa-solid fa-om"></i> Ramanathaswamy Temple</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#pamban"><i class="fa-solid fa-bridge"></i> Pamban Bridge</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi"><i class="fa-solid fa-monument"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#kalam"><i class="fa-solid fa-star"></i> A.P.J. Abdul Kalam Memorial</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#agni"><i class="fa-solid fa-water"></i> Agni Theertham</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#uthirakosamangai"><i class="fa-solid fa-gem"></i> Thiru Uthirakosamangai</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#thiruppullani"><i class="fa-solid fa-place-of-worship"></i> Thiruppullani</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi-beach"><i class="fa-solid fa-umbrella-beach"></i> Dhanushkodi Beach</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-dropdown">
+                        <a href="places.html" class="nav-link on-hero active">
+                            Major Places <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#ramanathapuram"><i class="fa-solid fa-chess-rook"></i> Ramanathapuram</a></li>
+                            <li class="dropdown-item"><a href="#rameswaram"><i class="fa-solid fa-gopuram"></i> Rameswaram</a></li>
+                            <li class="dropdown-item"><a href="#paramakudi"><i class="fa-solid fa-masks-theater"></i> Paramakudi</a></li>
+                            <li class="dropdown-item"><a href="#dhanushkodi"><i class="fa-solid fa-compass"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="#kilakarai"><i class="fa-solid fa-anchor"></i> Kilakarai</a></li>
+                            <li class="dropdown-item"><a href="#uthirakosamangai"><i class="fa-solid fa-tree"></i> Thiru Uthirakosamangai</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="food.html" class="nav-link on-hero">Food</a></li>
+                    <li class="nav-item"><a href="culture.html" class="nav-link on-hero">Culture</a></li>
+                    <li class="nav-item"><a href="people.html" class="nav-link on-hero">Famous People</a></li>
+                    <li class="nav-item"><a href="guide.html" class="nav-link on-hero">Travel Guide</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link on-hero">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="ist-clock-pill on-hero">
+                            <i class="fa-regular fa-clock clock-icon-pulse"></i>
+                            <span class="live-ist-clock">Loading IST...</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-widgets">
+                <button class="theme-toggle-btn nav-theme-toggle on-hero" aria-label="Toggle dark and light mode" title="Toggle dark and light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger-btn on-hero" aria-label="Open Navigation Drawer">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-nav-drawer" role="dialog" aria-modal="true">
+        <div class="mobile-drawer-header">
+            <span class="mobile-drawer-title">RAMANATHAPURAM</span>
+            <button class="mobile-close-btn" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-nav-body">
+            <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="about.html" class="mobile-nav-link">About <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="attractions.html" class="mobile-nav-link">Attractions <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="places.html" class="mobile-nav-link active">Major Places <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="food.html" class="mobile-nav-link">Food <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="culture.html" class="mobile-nav-link">Culture <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="people.html" class="mobile-nav-link">Famous People <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="guide.html" class="mobile-nav-link">Travel Guide <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="mobile-drawer-footer">
+            <span class="live-ist-clock" style="font-size: 0.85rem;"></span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="theme-toggle-btn" aria-label="Toggle dark and light mode" title="Toggle dark and light mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="hero-bg-media">
+                <img src="assets/images/hero/hero_coastal_ramnad.jpg" alt="Ramanathapuram Places" class="hero-bg-img">
+            </div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <div class="breadcrumb-nav" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.65rem;"></i> <span>Major Places</span>
+                    </div>
+                    <a href="index.html" class="btn-go-home"><i class="fa-solid fa-arrow-left"></i> Go to Home</a>
+                </div>
+                <h1 class="page-hero-title typing-title">MAJOR PLACES</h1>
+                <p class="page-hero-subtitle">The Six Cornerstone Towns & Heritage Hubs</p>
+
+                <!-- Scroll Indicator (Requirement 22) -->
+                <a href="#places-grid" class="scroll-indicator-wrap" aria-label="Scroll to Explore">
+                    <span class="scroll-indicator-label">Scroll to Explore</span>
+                    <div class="scroll-indicator-line"></div>
+                    <i class="fa-solid fa-chevron-down scroll-indicator-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- The 6 Major Places Section -->
+        <section class="content-section" id="places-grid" style="background: var(--bg-surface);">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-compass"></i> Six Iconic Centers</span>
+                <h2 class="section-title typing-title">DISCOVER THE DISTRICT HUBS</h2>
+                <p class="section-subtitle">
+                    Each town features its own distinctive character, from royal palaces and coastal trade to handloom weaving and sacred sea passages.
+                </p>
+            </div>
+
+            <div class="editorial-grid" style="gap: 40px;">
+                <!-- 1. Ramanathapuram -->
+                <div class="col-span-6 glass-card spring-jump" id="ramanathapuram">
+                    <div class="card-media">
+                        <img src="assets/images/places/ramanathapuram.jpg" alt="Ramanathapuram Ramalinga Vilas Palace" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/ramanathapuram.jpg" data-lightbox-caption="Ramalinga Vilas Palace, Ramanathapuram">
+                        <span class="card-badge">Heritage & District Centre</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">1. Ramanathapuram</h3>
+                        <p class="card-text">
+                            The administrative and historic capital of the district. Centered around the 17th-century Ramalinga Vilas Palace constructed by the Sethupathi kings, Ramanathapuram contains magnificent mural frescoes depicting royal court life and epic battles, thriving spice markets, and educational institutions.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Ramalinga Vilas Palace</span>
+                            <span class="food-pill">Sethupathi Museum</span>
+                            <span class="food-pill">District Headquarters</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Rameswaram -->
+                <div class="col-span-6 glass-card spring-jump" id="rameswaram">
+                    <div class="card-media">
+                        <img src="assets/images/places/rameshwaram_island.jpg" alt="Rameswaram Island" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/rameshwaram_island.jpg" data-lightbox-caption="Rameswaram Island and Sacred Shores">
+                        <span class="card-badge">Spiritual & Island Heritage</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">2. Rameswaram</h3>
+                        <p class="card-text">
+                            Situated on Pamban Island, Rameswaram is universally acknowledged as one of India's most venerated pilgrimage destinations. Beyond the grand Ramanathaswamy Temple, Rameswaram offers serene sunrise beaches, sacred wells, vibrant fisherman hamlets, and the birthplace of Dr. A.P.J. Abdul Kalam.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Char Dham Pilgrimage</span>
+                            <span class="food-pill">Sacred Theerthams</span>
+                            <span class="food-pill">Pamban Island</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Paramakudi -->
+                <div class="col-span-6 glass-card spring-jump" id="paramakudi">
+                    <div class="card-media">
+                        <img src="assets/images/places/paramakudi.jpg" alt="Paramakudi Town & Riverbank" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/paramakudi.jpg" data-lightbox-caption="Paramakudi Handloom & Vaigai Town">
+                        <span class="card-badge">Culture & Cinema</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">3. Paramakudi</h3>
+                        <p class="card-text">
+                            Located on the banks of the sacred Vaigai River, Paramakudi is a bustling commercial center renowned for its exquisite handloom silk and cotton weaving. It holds international cultural fame as the hometown of legendary cinema icon Kamal Haasan, and serves as an important transport crossroads.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Birthplace of Kamal Haasan</span>
+                            <span class="food-pill">Handloom Cotton Sarees</span>
+                            <span class="food-pill">Vaigai River Trade</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Dhanushkodi -->
+                <div class="col-span-6 glass-card spring-jump" id="dhanushkodi">
+                    <div class="card-media">
+                        <img src="assets/images/places/dhanushkodi.jpg" alt="Dhanushkodi Lands End" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/dhanushkodi.jpg" data-lightbox-caption="Dhanushkodi Sandspit and Historic Settlement Ruins">
+                        <span class="card-badge">Historic Coastal Settlement</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">4. Dhanushkodi</h3>
+                        <p class="card-text">
+                            A historic coastal settlement and windswept sandspit extending towards Sri Lanka, where myth, tragedy, and nature blend seamlessly. Preserving the haunting ruins of the railway settlement submerged in 1964, Dhanushkodi's Arichal Munai is where the Indian Ocean's roaring breakers meet the gentle, mirror-like shallows of Palk Bay.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Arichal Munai</span>
+                            <span class="food-pill">Adam's Bridge Shallows</span>
+                            <span class="food-pill">Marine Flora</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Kilakarai -->
+                <div class="col-span-6 glass-card spring-jump" id="kilakarai">
+                    <div class="card-media">
+                        <img src="assets/images/places/kilakarai.jpg" alt="Kilakarai Coast & Heritage" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/kilakarai.jpg" data-lightbox-caption="Historic Maritime Port of Kilakarai">
+                        <span class="card-badge">Maritime Heritage</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">5. Kilakarai</h3>
+                        <p class="card-text">
+                            An ancient coastal town with maritime trade roots stretching to Arabia, Persia, and the Roman Empire. Renowned for its historic pearl divers, seafaring merchants, and the historic <em>Palaiya Jumma Palli</em> (Old Jumma Masjid)—one of the oldest stone-carved Islamic prayer sanctuaries in South Asia.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Old Jumma Masjid</span>
+                            <span class="food-pill">Pearl Diving History</span>
+                            <span class="food-pill">Maritime Spice Port</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Thiru Uthirakosamangai -->
+                <div class="col-span-6 glass-card spring-jump" id="uthirakosamangai">
+                    <div class="card-media">
+                        <img src="assets/images/places/uthirakosamangai.jpg" alt="Thiru Uthirakosamangai Temple" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/uthirakosamangai.jpg" data-lightbox-caption="Thiru Uthirakosamangai Ancient Sanctum">
+                        <span class="card-badge">Ancient Temple & Spiritual Heritage</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">6. Thiru Uthirakosamangai</h3>
+                        <p class="card-text">
+                            A legendary temple town whose antiquity precedes historical records. Known as the primeval Shiva kshetra where Lord Shiva taught secrets of the Vedas to Goddess Parvati, this sanctum is revered for its single-emerald Nataraja statue and an ancient Ilanthai (Jujube) tree revered for over three millennia.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Emerald Nataraja</span>
+                            <span class="food-pill">Ancient Theertham Tank</span>
+                            <span class="food-pill">3000-Yr Ilanthai Tree</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Interactive District Geographic Map Hub (Requirement 27) -->
+        <section class="content-section district-interactive-map-section" style="background: var(--bg-surface); padding-top: 40px;">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-map-location-dot"></i> Interactive Regional Map</span>
+                <h2 class="section-title typing-title">DISTRICT GEOGRAPHIC TRAIL</h2>
+                <p class="section-subtitle">
+                    Hover over or click any of the 8 pivotal landmarks to explore their coastal geography and maritime routes.
+                </p>
+            </div>
+
+            <div class="district-interactive-map" style="position: relative; max-width: 1000px; margin: 0 auto; background: radial-gradient(circle at 60% 40%, rgba(22, 125, 145, 0.15) 0%, rgba(9, 44, 60, 0.45) 100%); border: 1.5px solid var(--border-gold); border-radius: 24px; padding: 32px 24px; overflow: hidden; box-shadow: var(--shadow-md);">
+                <!-- Dynamic Tooltip -->
+                <div class="map-dynamic-tooltip" style="position: absolute; display: none; transform: translate(-50%, -100%); background: #092C3C; border: 1.5px solid var(--color-warm-gold); color: #F7F4ED; padding: 8px 14px; border-radius: 10px; font-size: 0.84rem; pointer-events: none; z-index: 20; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"></div>
+
+                <!-- SVG Map Illustration -->
+                <svg viewBox="0 0 900 480" style="width: 100%; height: auto; display: block;" class="district-map-svg">
+                    <!-- Subtle Coastline / Sea Curves -->
+                    <path d="M 50,160 Q 220,130 400,210 T 650,290 T 820,330" fill="none" stroke="rgba(34, 165, 191, 0.35)" stroke-width="3" stroke-dasharray="6,6" class="trail-route-path" />
+                    <path d="M 120,80 Q 280,180 480,240 T 720,310 T 860,350" fill="none" stroke="rgba(200, 155, 60, 0.4)" stroke-width="2.5" />
+
+                    <!-- Connecting Marine Lines -->
+                    <line x1="420" y1="230" x2="570" y2="280" stroke="var(--color-warm-gold)" stroke-width="2.5" stroke-dasharray="4,4" />
+                    <line x1="570" y1="280" x2="710" y2="315" stroke="var(--color-warm-gold)" stroke-width="2.5" stroke-dasharray="4,4" />
+                    <line x1="710" y1="315" x2="820" y2="345" stroke="var(--color-warm-gold)" stroke-width="2.5" stroke-dasharray="4,4" />
+
+                    <!-- 1. Paramakudi -->
+                    <g class="map-location-pin" data-name="Paramakudi" data-role="Handloom Hub & Vaigai River" data-target="paramakudi" transform="translate(130, 110)">
+                        <circle cx="0" cy="0" r="16" fill="rgba(200, 155, 60, 0.25)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="9" fill="#C89B3C" stroke="#FFFFFF" stroke-width="2" />
+                        <text x="0" y="24" text-anchor="middle" fill="var(--text-primary)" font-size="12" font-weight="700">Paramakudi</text>
+                    </g>
+
+                    <!-- 2. Ramanathapuram -->
+                    <g class="map-location-pin" data-name="Ramanathapuram" data-role="District Capital & Sethupathi Palace" data-target="ramanathapuram" transform="translate(320, 190)">
+                        <circle cx="0" cy="0" r="18" fill="rgba(22, 125, 145, 0.3)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="10" fill="#167D91" stroke="#C89B3C" stroke-width="2.5" />
+                        <text x="0" y="26" text-anchor="middle" fill="var(--text-primary)" font-size="13" font-weight="800">Ramanathapuram</text>
+                    </g>
+
+                    <!-- 3. Thiru Uthirakosamangai -->
+                    <g class="map-location-pin" data-name="Thiru Uthirakosamangai" data-role="Ancient Emerald Nataraja Temple" data-target="uthirakosamangai" transform="translate(260, 270)">
+                        <circle cx="0" cy="0" r="15" fill="rgba(200, 155, 60, 0.25)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="8" fill="#C89B3C" stroke="#FFFFFF" stroke-width="2" />
+                        <text x="0" y="22" text-anchor="middle" fill="var(--text-primary)" font-size="11" font-weight="600">Uthirakosamangai</text>
+                    </g>
+
+                    <!-- 4. Thiruppullani -->
+                    <g class="map-location-pin" data-name="Thiruppullani" data-role="Adi Jagannatha Perumal Sanctum" data-target="places-grid" transform="translate(350, 280)">
+                        <circle cx="0" cy="0" r="15" fill="rgba(22, 125, 145, 0.25)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="8" fill="#22A5BF" stroke="#FFFFFF" stroke-width="2" />
+                        <text x="0" y="22" text-anchor="middle" fill="var(--text-primary)" font-size="11" font-weight="600">Thiruppullani</text>
+                    </g>
+
+                    <!-- 5. Kilakarai -->
+                    <g class="map-location-pin" data-name="Kilakarai" data-role="Ancient Maritime Port & Old Jumma Masjid" data-target="kilakarai" transform="translate(290, 360)">
+                        <circle cx="0" cy="0" r="16" fill="rgba(200, 155, 60, 0.25)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="8.5" fill="#C89B3C" stroke="#FFFFFF" stroke-width="2" />
+                        <text x="0" y="24" text-anchor="middle" fill="var(--text-primary)" font-size="11.5" font-weight="600">Kilakarai</text>
+                    </g>
+
+                    <!-- 6. Pamban -->
+                    <g class="map-location-pin" data-name="Pamban" data-role="Historic Cantilever Railway Bridge" data-target="places-grid" transform="translate(570, 280)">
+                        <circle cx="0" cy="0" r="17" fill="rgba(22, 125, 145, 0.3)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="9.5" fill="#167D91" stroke="#C89B3C" stroke-width="2" />
+                        <text x="0" y="25" text-anchor="middle" fill="var(--text-primary)" font-size="12" font-weight="700">Pamban</text>
+                    </g>
+
+                    <!-- 7. Rameswaram -->
+                    <g class="map-location-pin" data-name="Rameswaram" data-role="Ramanathaswamy Temple & Theerthams" data-target="rameswaram" transform="translate(710, 315)">
+                        <circle cx="0" cy="0" r="20" fill="rgba(200, 155, 60, 0.35)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="11" fill="#C89B3C" stroke="#FFFFFF" stroke-width="2.5" />
+                        <text x="0" y="28" text-anchor="middle" fill="var(--text-primary)" font-size="13.5" font-weight="800">Rameswaram</text>
+                    </g>
+
+                    <!-- 8. Dhanushkodi -->
+                    <g class="map-location-pin" data-name="Dhanushkodi" data-role="Lands End & Submerged Ghost Town" data-target="dhanushkodi" transform="translate(820, 345)">
+                        <circle cx="0" cy="0" r="17" fill="rgba(22, 125, 145, 0.3)" class="map-pin-pulse" />
+                        <circle cx="0" cy="0" r="9" fill="#22A5BF" stroke="#C89B3C" stroke-width="2" />
+                        <text x="0" y="24" text-anchor="middle" fill="var(--text-primary)" font-size="12" font-weight="700">Dhanushkodi</text>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="content-section" style="background: var(--bg-surface-alt); padding-top: 40px;">
+            <div class="final-cta-banner spring-jump">
+                <h2>READY TO JOURNEY ACROSS THESE 6 PLACES?</h2>
+                <p>Follow our curated Day 1, Day 2, and Day 3 itineraries to cover all of them smoothly.</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="guide.html" class="btn btn-gold spring-jump"><i class="fa-solid fa-route"></i> View Travel Guide</a>
+                    <a href="contact.html" class="btn btn-secondary spring-jump"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Image Lightbox Modal -->
+    <div id="lightbox-modal" role="dialog" aria-modal="true">
+        <button class="lightbox-btn lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-btn lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-btn lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Master Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="header-brand" style="margin-bottom: 16px; display: inline-flex;">
+                    <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                    <div class="brand-text-group">
+                        <span class="brand-title" style="color: var(--color-warm-sand);">RAMANATHAPURAM</span>
+                        <span class="brand-tagline" style="color: var(--color-ocean-light);">Where Heritage Meets the Sea</span>
+                    </div>
+                </a>
+                <p>Official district tourism and heritage exploration portal for Ramanathapuram, Tamil Nadu, India.</p>
+                <div class="footer-social-row">
+                    <a href="https://instagram.com/im__harsath" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/917339454474" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:+917339454474" class="footer-social-btn"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="attractions.html">Attractions</a></li>
+                    <li><a href="places.html">Major Places</a></li>
+                    <li><a href="food.html">Coastal Food</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Major Places</h4>
+                <ul class="footer-links">
+                    <li><a href="#ramanathapuram">Ramanathapuram</a></li>
+                    <li><a href="#rameswaram">Rameswaram</a></li>
+                    <li><a href="#paramakudi">Paramakudi</a></li>
+                    <li><a href="#dhanushkodi">Dhanushkodi</a></li>
+                    <li><a href="#kilakarai">Kilakarai</a></li>
+                    <li><a href="#uthirakosamangai">Thiru Uthirakosamangai</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Tourism Assistance</h4>
+                <p style="color: var(--color-warm-sand); font-weight: 600;">
+                    Harsath Ali A<br>
+                    Phone: +91 7339454474<br>
+                    Paramakudi, Tamil Nadu
+                </p>
+                <div style="margin-top: 14px;">
+                    <span style="font-size: 0.8rem; color: #9BB1BA; display: block;">Local IST Clock:</span>
+                    <span class="live-ist-clock" style="color: var(--color-warm-gold); font-weight: 700;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ramanathapuram District Tourism Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating AUDIO Button -->
+    <button id="floating-audio-pill" class="floating-audio-pill" aria-label="Toggle ocean ambience" title="Toggle ocean ambience" aria-pressed="true">
+        <i class="fa-solid fa-volume-high"></i>
+        <span class="audio-pill-label">AUDIO</span>
+    </button>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- External Animation & Interactive Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Audio Ambience Engine -->
+    <script src="js/audio-ambience.js"></script>
+
+    <!-- Site Master Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!-- Mouse Tracking Cursor Glow (Positioned at bottom of DOM) -->
+    <div id="cursor-glow"></div>
+</body>
+</html>

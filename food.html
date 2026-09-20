@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavours of the Coast | Ramanathapuram Cuisine & Food Guide</title>
+    <meta name="description" content="Discover Ramanathapuram's legendary coastal gastronomy: Fresh Seafood, Earthen Pot Meen Kuzhambu, Aromatic Biriyani, Parotta & Salna combined, Filter Coffee & Spiced Tea, and the world-famous Ramnad Mundu Chilli.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page-food">
+
+    <div id="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="site-header" id="main-header">
+        <div class="nav-container-inner">
+            <a href="index.html" class="header-brand" aria-label="Ramanathapuram Tourism Home">
+                <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                <div class="brand-text-group">
+                    <span class="brand-title on-hero">RAMANATHAPURAM</span>
+                    <span class="brand-tagline on-hero">Where Heritage Meets the Sea</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link on-hero">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link on-hero">About</a></li>
+                    
+                    <li class="nav-item has-dropdown">
+                        <a href="attractions.html" class="nav-link on-hero">
+                            Attractions <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="attractions.html#ramanathaswamy"><i class="fa-solid fa-om"></i> Ramanathaswamy Temple</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#pamban"><i class="fa-solid fa-bridge"></i> Pamban Bridge</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi"><i class="fa-solid fa-monument"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#kalam"><i class="fa-solid fa-star"></i> A.P.J. Abdul Kalam Memorial</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#agni"><i class="fa-solid fa-water"></i> Agni Theertham</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#uthirakosamangai"><i class="fa-solid fa-gem"></i> Thiru Uthirakosamangai</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#thiruppullani"><i class="fa-solid fa-place-of-worship"></i> Thiruppullani</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi-beach"><i class="fa-solid fa-umbrella-beach"></i> Dhanushkodi Beach</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-dropdown">
+                        <a href="places.html" class="nav-link on-hero">
+                            Major Places <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="places.html#ramanathapuram"><i class="fa-solid fa-chess-rook"></i> Ramanathapuram</a></li>
+                            <li class="dropdown-item"><a href="places.html#rameswaram"><i class="fa-solid fa-gopuram"></i> Rameswaram</a></li>
+                            <li class="dropdown-item"><a href="places.html#paramakudi"><i class="fa-solid fa-masks-theater"></i> Paramakudi</a></li>
+                            <li class="dropdown-item"><a href="places.html#dhanushkodi"><i class="fa-solid fa-compass"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="places.html#kilakarai"><i class="fa-solid fa-anchor"></i> Kilakarai</a></li>
+                            <li class="dropdown-item"><a href="places.html#uthirakosamangai"><i class="fa-solid fa-tree"></i> Thiru Uthirakosamangai</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="food.html" class="nav-link on-hero active">Food</a></li>
+                    <li class="nav-item"><a href="culture.html" class="nav-link on-hero">Culture</a></li>
+                    <li class="nav-item"><a href="people.html" class="nav-link on-hero">Famous People</a></li>
+                    <li class="nav-item"><a href="guide.html" class="nav-link on-hero">Travel Guide</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link on-hero">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="ist-clock-pill on-hero">
+                            <i class="fa-regular fa-clock clock-icon-pulse"></i>
+                            <span class="live-ist-clock">Loading IST...</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-widgets">
+                <button class="theme-toggle-btn nav-theme-toggle on-hero" aria-label="Toggle dark and light mode" title="Toggle dark and light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger-btn on-hero" aria-label="Open Navigation Drawer">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-nav-drawer" role="dialog" aria-modal="true">
+        <div class="mobile-drawer-header">
+            <span class="mobile-drawer-title">RAMANATHAPURAM</span>
+            <button class="mobile-close-btn" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-nav-body">
+            <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="about.html" class="mobile-nav-link">About <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="attractions.html" class="mobile-nav-link">Attractions <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="places.html" class="mobile-nav-link">Major Places <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="food.html" class="mobile-nav-link active">Food <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="culture.html" class="mobile-nav-link">Culture <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="people.html" class="mobile-nav-link">Famous People <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="guide.html" class="mobile-nav-link">Travel Guide <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="mobile-drawer-footer">
+            <span class="live-ist-clock" style="font-size: 0.85rem;"></span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="theme-toggle-btn" aria-label="Toggle dark and light mode" title="Toggle dark and light mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="hero-bg-media">
+                <img src="assets/images/food/seafood.jpg" alt="Coastal Seafood Ramanathapuram" class="hero-bg-img">
+            </div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <div class="breadcrumb-nav" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.65rem;"></i> <span>Food</span>
+                    </div>
+                    <a href="index.html" class="btn-go-home"><i class="fa-solid fa-arrow-left"></i> Go to Home</a>
+                </div>
+                <h1 class="page-hero-title typing-title">FLAVOURS OF THE COAST</h1>
+                <p class="page-hero-subtitle">Authentic Maritime Recipes, Native Earthen Pots & Coastal Spices</p>
+
+                <!-- Scroll Indicator (Requirement 22) -->
+                <a href="#food-menu" class="scroll-indicator-wrap" aria-label="Scroll to Explore">
+                    <span class="scroll-indicator-label">Scroll to Explore</span>
+                    <div class="scroll-indicator-line"></div>
+                    <i class="fa-solid fa-chevron-down scroll-indicator-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- The 6 Primary Food Categories -->
+        <section class="content-section" id="food-menu" style="background: var(--bg-surface);">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-utensils"></i> Signature Culinary Traditions</span>
+                <h2 class="section-title typing-title">THE SIX SIGNATURE FLAVOURS</h2>
+                <p class="section-subtitle">
+                    Explore the six authentic culinary pillars that make dining in Ramanathapuram District an unforgettable experience.
+                </p>
+            </div>
+
+            <div class="food-grid">
+                <!-- 1. SEAFOOD -->
+                <div class="food-card spring-jump" id="seafood">
+                    <div class="food-media">
+                        <img src="assets/images/food/seafood.jpg" alt="Coastal Seafood Feast" loading="lazy" decoding="async" data-lightbox-src="assets/images/food/seafood.jpg" data-lightbox-caption="Fresh Coastal Vanjaram Fish Fry, Crab & Prawns">
+                        <span class="food-tag">Category 01</span>
+                    </div>
+                    <div class="food-body">
+                        <h3 class="food-title">1. SEAFOOD</h3>
+                        <p class="card-text">
+                            With the Gulf of Mannar and Palk Bay flanking both shores, seafood in Ramanathapuram is celebrated for exceptional freshness. Vanjaram (seer fish) steaks marinated in coarse sea salt, turmeric, and Ramnad chilli paste are crisped on heavy cast-iron tawas. Coastal mud crabs simmered in black pepper and roasted cumin sauce, and succulent jumbo tiger prawns grilled over tamarind wood coals provide unparalleled coastal depth.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Vanjaram Tawa Fry</span>
+                            <span class="food-pill">Nandu (Crab) Masala</span>
+                            <span class="food-pill">Prawn Sukka</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. MEEN KUZHAMBU -->
+                <div class="food-card spring-jump" id="meen-kuzhambu">
+                    <div class="food-media">
+                        <img src="assets/images/food/meen_kuzhambu.jpg" alt="Earthen Pot Meen Kuzhambu" loading="lazy" decoding="async" data-lightbox-src="assets/images/food/meen_kuzhambu.jpg" data-lightbox-caption="Traditional Clay Pot Meen Kuzhambu">
+                        <span class="food-tag">Category 02</span>
+                    </div>
+                    <div class="food-body">
+                        <h3 class="food-title">2. MEEN KUZHAMBU</h3>
+                        <p class="card-text">
+                            The quintessential Tamil coastal curry, slow-cooked in traditional porous black clay pots (<em>manpaanai</em>). Native shallots (chinna vengayam), fresh garlic pods, and pungent fenugreek seeds are tempered in cold-pressed sesame oil before adding aged tamarind extract and fresh ocean fish steaks. The natural clay breathes during cooking, intensifying the crimson gravy into an elixir that tastes even more extraordinary the next day.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Black Clay Pot (Manpaanai)</span>
+                            <span class="food-pill">Cold-Pressed Sesame Oil</span>
+                            <span class="food-pill">Aged Tamarind & Shallots</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. BIRIYANI -->
+                <div class="food-card spring-jump" id="biriyani">
+                    <div class="food-media">
+                        <img src="assets/images/food/biriyani.jpg" alt="Aromatic Coastal Biriyani" loading="lazy" decoding="async" data-lightbox-src="assets/images/food/biriyani.jpg" data-lightbox-caption="Ramnad Seeraga Samba Coastal Biriyani">
+                        <span class="food-tag">Category 03</span>
+                    </div>
+                    <div class="food-body">
+                        <h3 class="food-title">3. BIRIYANI</h3>
+                        <p class="card-text">
+                            Distinct from northern long-grain versions, Ramanathapuram biriyani is created with tiny, highly aromatic <em>Seeraga Samba</em> short grains. Infused with gentle maritime spices, fresh mint, coriander, ginger-garlic paste, and tender country mutton or coastal chicken, it is slow-cooked over wood embers in heavy brass handis. Served hot with onion-curd raita and a rich spiced brinjal salna.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Seeraga Samba Grains</span>
+                            <span class="food-pill">Wood Ember Dum</span>
+                            <span class="food-pill">Brinjal Salna Accompaniment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. PAROTTA & SALNA (Strictly Combined) -->
+                <div class="food-card spring-jump" id="parotta-salna">
+                    <div class="food-media">
+                        <img src="assets/images/food/parotta_salna.jpg" alt="Parotta and Salna Combined Meal" loading="lazy" decoding="async" data-lightbox-src="assets/images/food/parotta_salna.jpg" data-lightbox-caption="Golden Flaky Parotta Served with Slow-Cooked Salna Gravy">
+                        <span class="food-tag">Category 04</span>
+                    </div>
+                    <div class="food-body">
+                        <h3 class="food-title">4. PAROTTA & SALNA</h3>
+                        <p class="card-text">
+                            An inseparable culinary pair revered throughout southern Tamil Nadu. Fresh dough is hand-beaten, stretched paper-thin, coiled into spirals, and grilled golden-brown on smoking cast-iron griddles with ghee. The resulting multilayered, flaky parotta is crushed and completely drenched in steaming, fragrant salna—a velvety gravy simmered with coconut paste, poppy seeds, fennel, and aromatic spices.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">One United Serving</span>
+                            <span class="food-pill">Flaky Hand-Stretched Parotta</span>
+                            <span class="food-pill">Aromatic Coconut Salna</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. TEA & COFFEE (Strictly Combined) -->
+                <div class="food-card spring-jump" id="tea-coffee">
+                    <div class="food-media">
+                        <img src="assets/images/food/tea_coffee.jpg" alt="Tea and Filter Coffee" loading="lazy" decoding="async" data-lightbox-src="assets/images/food/tea_coffee.jpg" data-lightbox-caption="Traditional Davarah Filter Coffee & Spiced Coastal Tea">
+                        <span class="food-tag">Category 05</span>
+                    </div>
+                    <div class="food-body">
+                        <h3 class="food-title">5. TEA & COFFEE</h3>
+                        <p class="card-text">
+                            The essential beverages fueling coastal mornings and evening sea breezes. Traditional South Indian filter coffee is brewed from freshly roasted dark chicory-blended beans and hot frothy milk, aerated with theatrical meter-long pours between brass davarahs and tumblers. Alongside it, roadside coastal tea stalls simmer strong CTC black tea infused with crushed dry ginger (chukku), cardamom, and holy basil leaves.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Brass Davarah-Tumbler</span>
+                            <span class="food-pill">Meter Long Aeration</span>
+                            <span class="food-pill">Chukku Ginger Coastal Tea</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. RAMNAD CHILLI -->
+                <div class="food-card spring-jump" id="ramnad-chilli">
+                    <div class="food-media">
+                        <img src="assets/images/food/ramnad_chilli.jpg" alt="Ramnad Mundu Red Chilli" loading="lazy" decoding="async" data-lightbox-src="assets/images/food/ramnad_chilli.jpg" data-lightbox-caption="GI-Tagged Round Ramnad Mundu Chillies">
+                        <span class="food-tag">Category 06</span>
+                    </div>
+                    <div class="food-body">
+                        <h3 class="food-title">6. RAMNAD CHILLI</h3>
+                        <p class="card-text">
+                            The globally famous, GI-tagged <em>Ramnad Mundu Chilli</em> (Gundu Milagai). Grown in the arid black-cotton soils of Ramanathapuram, this spherical round chilli features thick, shiny crimson skin with tightly clustered seeds. It is legendary across Chettinad and South Indian kitchens because it imparts a brilliant deep ruby color, intoxicating fragrance, and a balanced, lingering warmth rather than a sharp burning sting.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Official GI Tagged Specialty</span>
+                            <span class="food-pill">Unique Spherical Shape</span>
+                            <span class="food-pill">Intense Ruby Color & Aroma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="content-section" style="background: var(--bg-surface-alt); padding-top: 40px;">
+            <div class="final-cta-banner spring-jump">
+                <h2>CRAVING AUTHENTIC RAMANATHAPURAM FOOD?</h2>
+                <p>Visit the bustling street food stalls in Paramakudi, coastal shacks in Rameswaram, and traditional mess eateries across Ramanathapuram.</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="places.html" class="btn btn-gold spring-jump"><i class="fa-solid fa-compass"></i> Explore Major Places</a>
+                    <a href="guide.html" class="btn btn-secondary spring-jump"><i class="fa-solid fa-route"></i> Travel Itinerary</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Image Lightbox Modal -->
+    <div id="lightbox-modal" role="dialog" aria-modal="true">
+        <button class="lightbox-btn lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-btn lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-btn lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Master Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="header-brand" style="margin-bottom: 16px; display: inline-flex;">
+                    <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                    <div class="brand-text-group">
+                        <span class="brand-title" style="color: var(--color-warm-sand);">RAMANATHAPURAM</span>
+                        <span class="brand-tagline" style="color: var(--color-ocean-light);">Where Heritage Meets the Sea</span>
+                    </div>
+                </a>
+                <p>Official district tourism and heritage exploration portal for Ramanathapuram, Tamil Nadu, India.</p>
+                <div class="footer-social-row">
+                    <a href="https://instagram.com/im__harsath" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/917339454474" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:+917339454474" class="footer-social-btn"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Food Categories</h4>
+                <ul class="footer-links">
+                    <li><a href="#seafood">1. Seafood</a></li>
+                    <li><a href="#meen-kuzhambu">2. Meen Kuzhambu</a></li>
+                    <li><a href="#biriyani">3. Biriyani</a></li>
+                    <li><a href="#parotta-salna">4. Parotta & Salna</a></li>
+                    <li><a href="#tea-coffee">5. Tea & Coffee</a></li>
+                    <li><a href="#ramnad-chilli">6. Ramnad Chilli</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="attractions.html">Attractions</a></li>
+                    <li><a href="places.html">Major Places</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Culinary Inquiries</h4>
+                <p style="color: var(--color-warm-sand); font-weight: 600;">
+                    Harsath Ali A<br>
+                    Phone: +91 7339454474<br>
+                    Paramakudi, Tamil Nadu
+                </p>
+                <div style="margin-top: 14px;">
+                    <span style="font-size: 0.8rem; color: #9BB1BA; display: block;">Local IST Clock:</span>
+                    <span class="live-ist-clock" style="color: var(--color-warm-gold); font-weight: 700;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ramanathapuram District Tourism Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating AUDIO Button -->
+    <button id="floating-audio-pill" class="floating-audio-pill" aria-label="Toggle ocean ambience" title="Toggle ocean ambience" aria-pressed="true">
+        <i class="fa-solid fa-volume-high"></i>
+        <span class="audio-pill-label">AUDIO</span>
+    </button>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- External Animation & Interactive Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Audio Ambience Engine -->
+    <script src="js/audio-ambience.js"></script>
+
+    <!-- Site Master Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!-- Mouse Tracking Cursor Glow (Positioned at bottom of DOM) -->
+    <div id="cursor-glow"></div>
+</body>
+</html>
