@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Attractions | Ramanathapuram District Tourism</title>
+    <meta name="description" content="Discover the 8 premier attractions of Ramanathapuram: Ramanathaswamy Temple, Pamban Bridge, Dhanushkodi, Dr. APJ Abdul Kalam Memorial, Agni Theertham, Thiru Uthirakosamangai, Thiruppullani, and Dhanushkodi Beach.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page-attractions">
+
+    <div id="scroll-progress"></div>
+
+    <!-- Site Header -->
+    <header class="site-header" id="main-header">
+        <div class="nav-container-inner navbar">
+            <a href="index.html" class="header-brand navbar-brand" aria-label="Ramanathapuram Tourism Home">
+                <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                <div class="brand-text-group">
+                    <span class="brand-title on-hero">RAMANATHAPURAM</span>
+                    <span class="brand-tagline on-hero">Where Heritage Meets the Sea</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link on-hero">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link on-hero">About</a></li>
+                    
+                    <li class="nav-item has-dropdown">
+                        <a href="attractions.html" class="nav-link on-hero active">
+                            Attractions <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#ramanathaswamy"><i class="fa-solid fa-om"></i> Ramanathaswamy Temple</a></li>
+                            <li class="dropdown-item"><a href="#pamban"><i class="fa-solid fa-bridge"></i> Pamban Bridge</a></li>
+                            <li class="dropdown-item"><a href="#dhanushkodi"><i class="fa-solid fa-monument"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="#kalam"><i class="fa-solid fa-star"></i> A.P.J. Abdul Kalam Memorial</a></li>
+                            <li class="dropdown-item"><a href="#agni"><i class="fa-solid fa-water"></i> Agni Theertham</a></li>
+                            <li class="dropdown-item"><a href="#uthirakosamangai"><i class="fa-solid fa-gem"></i> Thiru Uthirakosamangai</a></li>
+                            <li class="dropdown-item"><a href="#thiruppullani"><i class="fa-solid fa-place-of-worship"></i> Thiruppullani</a></li>
+                            <li class="dropdown-item"><a href="#dhanushkodi-beach"><i class="fa-solid fa-umbrella-beach"></i> Dhanushkodi Beach</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-dropdown">
+                        <a href="places.html" class="nav-link on-hero">
+                            Major Places <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="places.html#ramanathapuram"><i class="fa-solid fa-chess-rook"></i> Ramanathapuram</a></li>
+                            <li class="dropdown-item"><a href="places.html#rameswaram"><i class="fa-solid fa-gopuram"></i> Rameswaram</a></li>
+                            <li class="dropdown-item"><a href="places.html#paramakudi"><i class="fa-solid fa-masks-theater"></i> Paramakudi</a></li>
+                            <li class="dropdown-item"><a href="places.html#dhanushkodi"><i class="fa-solid fa-compass"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="places.html#kilakarai"><i class="fa-solid fa-anchor"></i> Kilakarai</a></li>
+                            <li class="dropdown-item"><a href="places.html#uthirakosamangai"><i class="fa-solid fa-tree"></i> Thiru Uthirakosamangai</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="food.html" class="nav-link on-hero">Food</a></li>
+                    <li class="nav-item"><a href="culture.html" class="nav-link on-hero">Culture</a></li>
+                    <li class="nav-item"><a href="people.html" class="nav-link on-hero">Famous People</a></li>
+                    <li class="nav-item"><a href="guide.html" class="nav-link on-hero">Travel Guide</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link on-hero">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="ist-clock-pill on-hero">
+                            <i class="fa-regular fa-clock clock-icon-pulse"></i>
+                            <span class="live-ist-clock">Loading IST...</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-widgets">
+                <button class="theme-toggle-btn nav-theme-toggle theme-toggle on-hero" aria-label="Toggle dark and light mode" title="Toggle dark and light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger-btn hamburger-menu on-hero" aria-label="Open Navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+        <div class="mobile-drawer-header">
+            <span class="mobile-drawer-title">RAMANATHAPURAM</span>
+            <button class="mobile-close-btn" aria-label="Close Navigation"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-nav-body">
+            <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="about.html" class="mobile-nav-link">About <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="attractions.html" class="mobile-nav-link active">Attractions <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="places.html" class="mobile-nav-link">Major Places <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="food.html" class="mobile-nav-link">Food <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="culture.html" class="mobile-nav-link">Culture <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="people.html" class="mobile-nav-link">Famous People <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="guide.html" class="mobile-nav-link">Travel Guide <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="mobile-drawer-footer">
+            <span class="live-ist-clock" style="font-size: 0.85rem;"></span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="theme-toggle-btn" aria-label="Toggle dark and light mode" title="Toggle dark and light mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="hero-bg-media">
+                <img src="assets/images/places/pamban_bridge.jpg" alt="Ramanathapuram Attractions" class="hero-bg-img">
+            </div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <div class="breadcrumb-nav" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.65rem;"></i> <span>Attractions</span>
+                    </div>
+                    <a href="index.html" class="btn-go-home"><i class="fa-solid fa-arrow-left"></i> Go to Home</a>
+                </div>
+                <h1 class="page-hero-title typing-title">DISTRICT ATTRACTIONS</h1>
+                <p class="page-hero-subtitle">The 8 Definitive Monuments, Shrines & Natural Wonders</p>
+
+                <!-- Scroll Indicator (Requirement 22) -->
+                <a href="#attractions-list" class="scroll-indicator-wrap" aria-label="Scroll to Explore">
+                    <span class="scroll-indicator-label">Scroll to Explore</span>
+                    <div class="scroll-indicator-line"></div>
+                    <i class="fa-solid fa-chevron-down scroll-indicator-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- The Strict 8 Attractions Section -->
+        <section class="content-section" id="attractions-list" style="background: var(--bg-surface);">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-star"></i> Canonical Destination Guide</span>
+                <h2 class="section-title typing-title">THE 8 ESSENTIAL WONDERS</h2>
+                <p class="section-subtitle">
+                    Each destination embodies centuries of devotion, engineering mastery, or breathtaking coastal drama.
+                </p>
+            </div>
+
+            <div class="editorial-grid" style="gap: 36px;">
+                <!-- 1. Ramanathaswamy Temple -->
+                <div class="col-span-6 glass-card spring-jump" id="ramanathaswamy">
+                    <div class="card-media">
+                        <img src="assets/images/places/ramanathaswamy_temple.jpg" alt="Ramanathaswamy Temple Corridor" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/ramanathaswamy_temple.jpg" data-lightbox-caption="World's Longest Temple Corridor at Ramanathaswamy Temple, Rameswaram">
+                        <span class="card-badge"><i class="fa-solid fa-om"></i> 01. Sacred Jyotirlinga</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Rameswaram Island</span>
+                            <span><i class="fa-regular fa-clock"></i> 5:00 AM – 1:00 PM | 3:00 PM – 9:00 PM</span>
+                        </div>
+                        <h3 class="card-title">1. Ramanathaswamy Temple</h3>
+                        <p class="card-text">
+                            One of the twelve revered Jyotirlinga shrines and the southernmost pillar of India's sacred Char Dham circuit. Enclosed within towering granite prakaras, it features the magnificent 1,212-pillared third corridor—the longest temple hallway in the world—and 22 holy theertham wells renowned for medicinal and spiritual cleansing.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">1,212 Pillars</span>
+                            <span class="food-pill">22 Sacred Theerthams</span>
+                            <span class="food-pill">Ramalinga Deity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Pamban Bridge -->
+                <div class="col-span-6 glass-card spring-jump" id="pamban">
+                    <div class="card-media">
+                        <img src="assets/images/places/pamban_bridge.jpg" alt="Pamban Rail Sea Bridge" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/pamban_bridge.jpg" data-lightbox-caption="Pamban Cantilever Sea Bridge & New Vertical Lift Bridge">
+                        <span class="card-badge"><i class="fa-solid fa-bridge"></i> 02. Engineering Marvel</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Palk Strait</span>
+                            <span><i class="fa-solid fa-camera"></i> Open 24 Hours (Best at Sunset)</span>
+                        </div>
+                        <h3 class="card-title">2. Pamban Bridge</h3>
+                        <p class="card-text">
+                            Inaugurated in 1914, this 2.06 km cantilever sea bridge connects Mandapam on the Indian mainland with Rameswaram Island. Operating across corrosive saline sea winds for over a century with its iconic Scherzer rolling lift span, it is now joined by India's first state-of-the-art vertical lift railway sea bridge.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">2.06 km Sea Span</span>
+                            <span class="food-pill">Scherzer Rolling Lift</span>
+                            <span class="food-pill">New Vertical Lift</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Dhanushkodi -->
+                <div class="col-span-6 glass-card spring-jump" id="dhanushkodi">
+                    <div class="card-media">
+                        <img src="assets/images/places/dhanushkodi.jpg" alt="Dhanushkodi Ruins" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/dhanushkodi.jpg" data-lightbox-caption="Atmospheric Ruins of Dhanushkodi at Land's End">
+                        <span class="card-badge"><i class="fa-solid fa-monument"></i> 03. Ghost Town Ruins</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Southeastern Tip</span>
+                            <span><i class="fa-regular fa-clock"></i> 6:00 AM – 6:00 PM</span>
+                        </div>
+                        <h3 class="card-title">3. Dhanushkodi</h3>
+                        <p class="card-text">
+                            Situated at the southeastern terminus of Pamban Island, Dhanushkodi is a legendary coastal settlement submerged by the cataclysmic 1964 cyclone. Today, its weathered church nave, railway station water tanks, and post office stand dramatically preserved against shifting white sands and turquoise waters.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">1964 Cyclone Ruins</span>
+                            <span class="food-pill">Arichal Munai</span>
+                            <span class="food-pill">Two Oceans Meeting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. A.P.J. Abdul Kalam Memorial -->
+                <div class="col-span-6 glass-card spring-jump" id="kalam">
+                    <div class="card-media">
+                        <img src="assets/images/places/kalam_memorial.jpg" alt="Dr. APJ Abdul Kalam Memorial" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/kalam_memorial.jpg" data-lightbox-caption="Dr. APJ Abdul Kalam National Memorial at Pei Karumbu">
+                        <span class="card-badge"><i class="fa-solid fa-star"></i> 04. National Memorial</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Pei Karumbu, Rameswaram</span>
+                            <span><i class="fa-regular fa-clock"></i> 9:00 AM – 6:00 PM</span>
+                        </div>
+                        <h3 class="card-title">4. Dr. A.P.J. Abdul Kalam Memorial</h3>
+                        <p class="card-text">
+                            Constructed by the Defence Research and Development Organisation (DRDO) over Dr. Kalam’s resting place at Pei Karumbu. Designed with majestic yellow sandstone domes reminiscent of Rashtrapati Bhavan and stone carved Chettinad arches, it houses personal belongings, missile models, replicas of the Pokhran nuclear test, and his paintings.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">DRDO Architecture</span>
+                            <span class="food-pill">Rocket & Satellite Models</span>
+                            <span class="food-pill">Vision 2020 Gallery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Agni Theertham -->
+                <div class="col-span-6 glass-card spring-jump" id="agni">
+                    <div class="card-media">
+                        <img src="assets/images/places/agni_theertham.jpg" alt="Agni Theertham" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/agni_theertham.jpg" data-lightbox-caption="Dawn Rituals at Agni Theertham">
+                        <span class="card-badge"><i class="fa-solid fa-water"></i> 05. Sacred Sea Shore</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Eastern Shore, Rameswaram</span>
+                            <span><i class="fa-regular fa-clock"></i> Open 24 Hours (Auspicious at Dawn)</span>
+                        </div>
+                        <h3 class="card-title">5. Agni Theertham</h3>
+                        <p class="card-text">
+                            The holy seashore facing the majestic Eastern Gopuram of Ramanathaswamy Temple. Legend relates that Lord Agni offered prayers here to purify himself after verifying Goddess Sita's purity. Unlike normal ocean beaches, the water here is exceptionally calm, placid, and free of rolling waves.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Calm Bay Waters</span>
+                            <span class="food-pill">Purification Rituals</span>
+                            <span class="food-pill">Eastern Temple View</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Thiru Uthirakosamangai Temple -->
+                <div class="col-span-6 glass-card spring-jump" id="uthirakosamangai">
+                    <div class="card-media">
+                        <img src="assets/images/places/uthirakosamangai.jpg" alt="Thiru Uthirakosamangai Temple" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/uthirakosamangai.jpg" data-lightbox-caption="Ancient Dravidian Sanctum of Thiru Uthirakosamangai">
+                        <span class="card-badge"><i class="fa-solid fa-gem"></i> 06. Emerald Nataraja</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Uthirakosamangai (18 km from Ramanathapuram)</span>
+                            <span><i class="fa-regular fa-clock"></i> 6:00 AM – 12:00 PM | 4:30 PM – 8:00 PM</span>
+                        </div>
+                        <h3 class="card-title">6. Thiru Uthirakosamangai Temple</h3>
+                        <p class="card-text">
+                            One of the most ancient Shiva shrines on earth, dating back over 3,000 years and celebrated by saint poet Manikkavasagar in the <em>Thiruvasagam</em>. The temple is worldwide renowned for housing a priceless 5.5-foot idol of Lord Nataraja carved from a single piece of emerald (Maragatham), unveiled only once annually on Arudra Darshanam.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">5.5 ft Emerald Nataraja</span>
+                            <span class="food-pill">3000-Year-Old Ilanthai Tree</span>
+                            <span class="food-pill">Arudra Darshanam</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Thiruppullani -->
+                <div class="col-span-6 glass-card spring-jump" id="thiruppullani">
+                    <div class="card-media">
+                        <img src="assets/images/places/thiruppullani_temple.jpg" alt="Thiruppullani Adi Jagannatha Perumal Temple" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/thiruppullani_temple.jpg" data-lightbox-caption="Adi Jagannatha Perumal Temple, Thiruppullani">
+                        <span class="card-badge"><i class="fa-solid fa-place-of-worship"></i> 07. Divya Desam</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Thiruppullani (10 km from Ramanathapuram)</span>
+                            <span><i class="fa-regular fa-clock"></i> 7:00 AM – 12:30 PM | 4:00 PM – 8:30 PM</span>
+                        </div>
+                        <h3 class="card-title">7. Thiruppullani Temple</h3>
+                        <p class="card-text">
+                            A sanctified 108 Divya Desam temple dedicated to Lord Adi Jagannatha Perumal. Here, Lord Rama is depicted reclining on sacred Dharba grass (Dharba Sayana Ramar) for three days, seeking the Ocean King Samudra Raja's permission and guidance to construct the Rama Sethu causeway to Lanka.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Dharba Sayana Ramar</span>
+                            <span class="food-pill">108 Divya Desam</span>
+                            <span class="food-pill">Sethu Bridge Origin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Dhanushkodi Beach -->
+                <div class="col-span-6 glass-card spring-jump" id="dhanushkodi-beach">
+                    <div class="card-media">
+                        <img src="assets/images/places/dhanushkodi_beach.jpg" alt="Dhanushkodi Beach Sands" class="card-img" loading="lazy" decoding="async" data-lightbox-src="assets/images/places/dhanushkodi_beach.jpg" data-lightbox-caption="Pristine Turquoise Waters at Dhanushkodi Beach">
+                        <span class="card-badge"><i class="fa-solid fa-umbrella-beach"></i> 08. Pristine Dunes</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">
+                            <span><i class="fa-solid fa-location-dot"></i> Arichal Munai, Land's End</span>
+                            <span><i class="fa-regular fa-clock"></i> 6:00 AM – 5:30 PM</span>
+                        </div>
+                        <h3 class="card-title">8. Dhanushkodi Beach</h3>
+                        <p class="card-text">
+                            An untouched coastal frontier where the calm, greenish waters of the Palk Bay meet the deep, restless azure waves of the Gulf of Mannar. Pristine dunes, salt-glazed shells, gentle winds, and migratory sea birds make this one of the most sublime and dramatic coastal landscapes in Asia.
+                        </p>
+                        <div class="food-highlights">
+                            <span class="food-pill">Dual Ocean Confluence</span>
+                            <span class="food-pill">Flamingos & Shorebirds</span>
+                            <span class="food-pill">White Coral Sands</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="content-section" style="background: var(--bg-surface-alt); padding-top: 40px;">
+            <div class="final-cta-banner spring-jump">
+                <h2>EXPERIENCE THE 8 WONDERS IN PERSON</h2>
+                <p>Plan your transport routes, 3-day itinerary, and discover the curated Heritage Trail.</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="guide.html" class="btn btn-gold spring-jump"><i class="fa-solid fa-route"></i> Explore Travel Guide</a>
+                    <a href="contact.html" class="btn btn-secondary spring-jump"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Image Lightbox Modal -->
+    <div id="lightbox-modal" role="dialog" aria-modal="true">
+        <button class="lightbox-btn lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-btn lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-btn lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Master Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="header-brand navbar-brand" style="margin-bottom: 16px; display: inline-flex;">
+                    <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                    <div class="brand-text-group">
+                        <span class="brand-title" style="color: var(--color-warm-sand);">RAMANATHAPURAM</span>
+                        <span class="brand-tagline" style="color: var(--color-ocean-light);">Where Heritage Meets the Sea</span>
+                    </div>
+                </a>
+                <p>Official district tourism and heritage exploration portal for Ramanathapuram, Tamil Nadu, India.</p>
+                <div class="footer-social-row">
+                    <a href="https://instagram.com/im__harsath" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/917339454474" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:+917339454474" class="footer-social-btn"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="attractions.html">Attractions (8)</a></li>
+                    <li><a href="places.html">Major Places</a></li>
+                    <li><a href="food.html">Coastal Food</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>All 8 Attractions</h4>
+                <ul class="footer-links">
+                    <li><a href="#ramanathaswamy">Ramanathaswamy Temple</a></li>
+                    <li><a href="#pamban">Pamban Bridge</a></li>
+                    <li><a href="#dhanushkodi">Dhanushkodi</a></li>
+                    <li><a href="#kalam">Dr. Kalam Memorial</a></li>
+                    <li><a href="#agni">Agni Theertham</a></li>
+                    <li><a href="#uthirakosamangai">Thiru Uthirakosamangai</a></li>
+                    <li><a href="#thiruppullani">Thiruppullani</a></li>
+                    <li><a href="#dhanushkodi-beach">Dhanushkodi Beach</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Tourism Assistance</h4>
+                <p style="color: var(--color-warm-sand); font-weight: 600;">
+                    Harsath Ali A<br>
+                    Phone: +91 7339454474<br>
+                    Paramakudi, Tamil Nadu
+                </p>
+                <div style="margin-top: 14px;">
+                    <span style="font-size: 0.8rem; color: #9BB1BA; display: block;">Local IST Clock:</span>
+                    <span class="live-ist-clock" style="color: var(--color-warm-gold); font-weight: 700;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ramanathapuram District Tourism Portal. All rights reserved.</p>
+            <span>Partnered with <a href="https://www.tamilnadutourism.tn.gov.in/" target="_blank" rel="noopener">Tamil Nadu Tourism Development Corporation</a></span>
+        </div>
+    </footer>
+
+    <!-- Floating AUDIO Button -->
+    <button id="floating-audio-pill" class="floating-audio-pill" aria-label="Toggle ocean ambience" title="Toggle ocean ambience" aria-pressed="true">
+        <i class="fa-solid fa-volume-high"></i>
+        <span class="audio-pill-label">AUDIO</span>
+    </button>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- External Animation & Interactive Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Audio Ambience Engine -->
+    <script src="js/audio-ambience.js"></script>
+
+    <!-- Site Master Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!-- Mouse Tracking Cursor Glow (Positioned at bottom of DOM) -->
+    <div id="cursor-glow"></div>
+</body>
+</html>

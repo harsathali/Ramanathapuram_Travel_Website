@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ramanathapuram | Heritage, Geography & Royal Sethupathi Era</title>
+    <meta name="description" content="Discover the rich history, royal Sethupathi era, Gulf of Mannar marine reserve, and vibrant cultural heritage of Ramanathapuram District, Tamil Nadu.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page-about">
+
+    <div id="scroll-progress"></div>
+
+    <!-- Header Navigation -->
+    <header class="site-header" id="main-header">
+        <div class="nav-container-inner navbar">
+            <a href="index.html" class="header-brand navbar-brand" aria-label="Ramanathapuram Tourism Home">
+                <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                <div class="brand-text-group">
+                    <span class="brand-title on-hero">RAMANATHAPURAM</span>
+                    <span class="brand-tagline on-hero">Where Heritage Meets the Sea</span>
+                </div>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link on-hero">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link on-hero active">About</a></li>
+                    
+                    <li class="nav-item has-dropdown">
+                        <a href="attractions.html" class="nav-link on-hero">
+                            Attractions <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="attractions.html#ramanathaswamy"><i class="fa-solid fa-om"></i> Ramanathaswamy Temple</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#pamban"><i class="fa-solid fa-bridge"></i> Pamban Bridge</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi"><i class="fa-solid fa-monument"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#kalam"><i class="fa-solid fa-star"></i> A.P.J. Abdul Kalam Memorial</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#agni"><i class="fa-solid fa-water"></i> Agni Theertham</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#uthirakosamangai"><i class="fa-solid fa-gem"></i> Thiru Uthirakosamangai</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#thiruppullani"><i class="fa-solid fa-place-of-worship"></i> Thiruppullani</a></li>
+                            <li class="dropdown-item"><a href="attractions.html#dhanushkodi-beach"><i class="fa-solid fa-umbrella-beach"></i> Dhanushkodi Beach</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-dropdown">
+                        <a href="places.html" class="nav-link on-hero">
+                            Major Places <i class="fa-solid fa-chevron-down dropdown-chevron"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="places.html#ramanathapuram"><i class="fa-solid fa-chess-rook"></i> Ramanathapuram</a></li>
+                            <li class="dropdown-item"><a href="places.html#rameswaram"><i class="fa-solid fa-gopuram"></i> Rameswaram</a></li>
+                            <li class="dropdown-item"><a href="places.html#paramakudi"><i class="fa-solid fa-masks-theater"></i> Paramakudi</a></li>
+                            <li class="dropdown-item"><a href="places.html#dhanushkodi"><i class="fa-solid fa-compass"></i> Dhanushkodi</a></li>
+                            <li class="dropdown-item"><a href="places.html#kilakarai"><i class="fa-solid fa-anchor"></i> Kilakarai</a></li>
+                            <li class="dropdown-item"><a href="places.html#uthirakosamangai"><i class="fa-solid fa-tree"></i> Thiru Uthirakosamangai</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="food.html" class="nav-link on-hero">Food</a></li>
+                    <li class="nav-item"><a href="culture.html" class="nav-link on-hero">Culture</a></li>
+                    <li class="nav-item"><a href="people.html" class="nav-link on-hero">Famous People</a></li>
+                    <li class="nav-item"><a href="guide.html" class="nav-link on-hero">Travel Guide</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link on-hero">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="ist-clock-pill on-hero">
+                            <i class="fa-regular fa-clock clock-icon-pulse"></i>
+                            <span class="live-ist-clock">Loading IST...</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-widgets">
+                <button class="theme-toggle-btn nav-theme-toggle theme-toggle on-hero" aria-label="Toggle dark and light mode" title="Toggle dark and light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger-btn hamburger-menu on-hero" aria-label="Open Navigation Drawer">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-nav-drawer" role="dialog" aria-modal="true">
+        <div class="mobile-drawer-header">
+            <span class="mobile-drawer-title">RAMANATHAPURAM</span>
+            <button class="mobile-close-btn" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-nav-body">
+            <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="about.html" class="mobile-nav-link active">About <i class="fa-solid fa-arrow-right"></i></a>
+            <div>
+                <div class="mobile-accordion-header" data-target="mob-attractions">
+                    <span>Attractions (8)</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="mobile-subnav" id="mob-attractions">
+                    <a href="attractions.html#ramanathaswamy">Ramanathaswamy Temple</a>
+                    <a href="attractions.html#pamban">Pamban Bridge</a>
+                    <a href="attractions.html#dhanushkodi">Dhanushkodi</a>
+                    <a href="attractions.html#kalam">A.P.J. Abdul Kalam Memorial</a>
+                    <a href="attractions.html#agni">Agni Theertham</a>
+                    <a href="attractions.html#uthirakosamangai">Thiru Uthirakosamangai</a>
+                    <a href="attractions.html#thiruppullani">Thiruppullani</a>
+                    <a href="attractions.html#dhanushkodi-beach">Dhanushkodi Beach</a>
+                </div>
+            </div>
+            <div>
+                <div class="mobile-accordion-header" data-target="mob-places">
+                    <span>Major Places</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="mobile-subnav" id="mob-places">
+                    <a href="places.html#ramanathapuram">Ramanathapuram</a>
+                    <a href="places.html#rameswaram">Rameswaram</a>
+                    <a href="places.html#paramakudi">Paramakudi</a>
+                    <a href="places.html#dhanushkodi">Dhanushkodi</a>
+                    <a href="places.html#kilakarai">Kilakarai</a>
+                    <a href="places.html#uthirakosamangai">Thiru Uthirakosamangai</a>
+                </div>
+            </div>
+            <a href="food.html" class="mobile-nav-link">Food <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="culture.html" class="mobile-nav-link">Culture <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="people.html" class="mobile-nav-link">Famous People <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="guide.html" class="mobile-nav-link">Travel Guide <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="mobile-drawer-footer">
+            <span class="live-ist-clock" style="font-size: 0.85rem;"></span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="theme-toggle-btn" aria-label="Toggle dark and light mode" title="Toggle dark and light mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="hero-bg-media">
+                <img src="assets/images/places/ramanathapuram.jpg" alt="Ramalinga Vilas Palace Ramanathapuram" class="hero-bg-img">
+            </div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <div class="breadcrumb-nav" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size: 0.65rem;"></i> <span>About</span>
+                    </div>
+                    <a href="index.html" class="btn-go-home"><i class="fa-solid fa-arrow-left"></i> Go to Home</a>
+                </div>
+                <h1 class="page-hero-title typing-title">ABOUT RAMANATHAPURAM</h1>
+                <p class="page-hero-subtitle">The Sethupathi Legacy, Sacred Coastlines & Living Traditions</p>
+
+                <!-- Scroll Indicator (Requirement 22) -->
+                <a href="#geo-section" class="scroll-indicator-wrap" aria-label="Scroll to Explore">
+                    <span class="scroll-indicator-label">Scroll to Explore</span>
+                    <div class="scroll-indicator-line"></div>
+                    <i class="fa-solid fa-chevron-down scroll-indicator-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Geographic Identity & Coastal Landscape -->
+        <section class="content-section" id="geo-section" style="background: var(--bg-surface);">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-mountain-sun"></i> Maritime Geography</span>
+                <h2 class="section-title typing-title">GEOGRAPHIC IDENTITY</h2>
+                <p class="section-subtitle">
+                    Flanked by the calm shallow Palk Bay on the north and the biodiverse Gulf of Mannar on the south, Ramanathapuram boasts Tamil Nadu's longest continuous marine coastline.
+                </p>
+            </div>
+
+            <div class="editorial-grid" style="align-items: center;">
+                <div class="col-span-6">
+                    <div class="glass-card spring-jump" style="padding: 32px;">
+                        <h3 style="font-size: 1.6rem; color: var(--text-primary); margin-bottom: 14px;">
+                            <i class="fa-solid fa-water" style="color: var(--color-ocean-blue); margin-right: 8px;"></i> A Coastal Sanctuary
+                        </h3>
+                        <p style="margin-bottom: 16px;">
+                            Covering 4,068.31 square kilometers, Ramanathapuram is characterized by expansive salt pans, coconut groves, coastal dunes, and fertile delta pockets along the Vaigai river basin.
+                        </p>
+                        <p>
+                            Its crown jewel is the <strong>Gulf of Mannar Biosphere Reserve</strong>, India’s first marine national park, sheltering over 3,600 species of flora and fauna, including endangered sea cows (Dugong dugon), coral reefs, sea turtles, and pristine mangrove islets.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-span-6">
+                    <div style="border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-md);" class="spring-jump">
+                        <img src="assets/images/atmosphere/gulf_of_mannar.jpg" alt="Gulf of Mannar Biosphere Reserve" style="width: 100%; aspect-ratio: 16/10; object-fit: cover;" data-lightbox-src="assets/images/atmosphere/gulf_of_mannar.jpg" data-lightbox-caption="Pristine waters and coral ecosystems of Gulf of Mannar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historical Significance: The Royal Sethupathis -->
+        <section class="content-section" style="background: var(--bg-surface-alt);">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-shield-halved"></i> Guardians of the Sethu</span>
+                <h2 class="section-title">THE SETHUPATHI DYNASTY</h2>
+                <p class="section-subtitle">
+                    Kings of Sethu Samasthanam whose courage, patronage, and piety protected the pilgrim causeway and patronized temple art for centuries.
+                </p>
+            </div>
+
+            <div class="editorial-grid" style="align-items: center;">
+                <div class="col-span-5">
+                    <div style="border-radius: 22px; overflow: hidden; border: 2px solid var(--border-gold);" class="spring-jump">
+                        <img src="assets/images/places/ramanathapuram.jpg" alt="Ramalinga Vilas Palace Mural Heritage" style="width: 100%; aspect-ratio: 4/5; object-fit: cover;" data-lightbox-src="assets/images/places/ramanathapuram.jpg" data-lightbox-caption="Ramalinga Vilas Palace, Ramanathapuram">
+                    </div>
+                </div>
+
+                <div class="col-span-7" style="display: flex; flex-direction: column; gap: 16px;">
+                    <p style="font-size: 1.05rem; color: var(--text-primary); font-weight: 500;">
+                        The title <em>"Sethupathi"</em> literally translates to <strong>"Lord of the Causeway"</strong>. The Sethupathi rulers of Ramanathapuram held solemn custody of the sacred Rama Sethu bridge, safeguarding millions of pilgrims traversing southern India to Rameswaram.
+                    </p>
+                    <p>
+                        Under prominent rulers such as Kilavan Sethupathi and Muthuramalinga Sethupathi, Ramanathapuram flowered into an independent kingdom celebrated for its architectural triumphs. The monumental third corridor of Ramanathaswamy Temple was constructed under the generous patronage of Muthuramalinga Sethupathi between 1763 and 1768.
+                    </p>
+                    <p>
+                        The royal palace—<strong>Ramalinga Vilas</strong>—stands in Ramanathapuram town to this day, featuring rare 18th-century mural frescoes portraying royal ceremonies, European ambassadors, and celestial battles.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive History Timeline -->
+        <section class="content-section" style="background: var(--bg-surface);">
+            <div class="section-header">
+                <span class="section-badge"><i class="fa-solid fa-timeline"></i> Epochs of Time</span>
+                <h2 class="section-title">HISTORICAL TIMELINE</h2>
+                <p class="section-subtitle">Six definitive eras that shaped the modern district of Ramanathapuram.</p>
+            </div>
+
+            <div style="max-width: 850px; margin: 0 auto;">
+                <div class="biography-timeline">
+                    <!-- 1. Ancient & Medieval Heritage -->
+                    <div class="timeline-entry">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">Ancient & Medieval Heritage (Sangam – 14th Century)</div>
+                        <p class="timeline-text">
+                            Mentioned in early Tamil Sangam literature as part of Pandyan kingdom's coastal heartland. Ancient ports like Periyapattinam and Kilakarai traded pearls, spices, and textiles with imperial China, Arabia, Rome, and Sri Lanka.
+                        </p>
+                    </div>
+
+                    <!-- 2. Sethupathi Era -->
+                    <div class="timeline-entry">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">The Sethupathi Era (17th – 18th Century)</div>
+                        <p class="timeline-text">
+                            Raghunatha Kilavan Sethupathi shifted the capital from Pogalur to Ramanathapuram, fortifying the city with stone ramparts. The kingdom became a sovereign power patronizing Tamil poets, Dravidian stone architecture, and sea trade.
+                        </p>
+                    </div>
+
+                    <!-- 3. British Colonial Period -->
+                    <div class="timeline-entry">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">British Period & Pamban Rail (1795 – 1947)</div>
+                        <p class="timeline-text">
+                            The British East India Company took over revenue administration in 1795, reducing the royal state to a Zamindari estate. In 1914, the historic Pamban Cantilever Railway Bridge opened, revolutionizing pilgrimage and trade with Ceylon.
+                        </p>
+                    </div>
+
+                    <!-- 4. Formation of Ramanathapuram District -->
+                    <div class="timeline-entry">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">District Formation (1910)</div>
+                        <p class="timeline-text">
+                            Ramanathapuram District was officially created by bifurcating portions of Madurai and Tirunelveli districts in October 1910 under the Madras Presidency, encompassing a massive expanse from Virudhunagar to Sivaganga.
+                        </p>
+                    </div>
+
+                    <!-- 5. District Reorganization -->
+                    <div class="timeline-entry">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">District Reorganization (1985)</div>
+                        <p class="timeline-text">
+                            On March 15, 1985, the sprawling greater Ramanathapuram district was trifurcated by the Government of Tamil Nadu into three independent districts: Pasumpon Muthuramalingam (now Sivaganga), Kamarajar (now Virudhunagar), and present Ramanathapuram.
+                        </p>
+                    </div>
+
+                    <!-- 6. Modern Ramanathapuram -->
+                    <div class="timeline-entry">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">Modern Ramanathapuram (Present Day)</div>
+                        <p class="timeline-text">
+                            Today, Ramanathapuram stands as a premier coastal tourism hub, celebrated for sustainable marine bio-reserves, coastal fishing industries, solar and green energy projects, the new Pamban vertical lift bridge, and the revered memorial of Dr. A.P.J. Abdul Kalam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="content-section" style="background: var(--bg-surface-alt); padding-top: 40px;">
+            <div class="final-cta-banner spring-jump">
+                <h2>READY TO EXPLORE THE DISTRICT'S WONDERS?</h2>
+                <p>Discover the 8 iconic attractions that make Ramanathapuram an unmatched destination.</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="attractions.html" class="btn btn-gold spring-jump"><i class="fa-solid fa-gem"></i> Explore Attractions</a>
+                    <a href="guide.html" class="btn btn-secondary spring-jump"><i class="fa-solid fa-route"></i> View Travel Guide</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Image Lightbox Modal -->
+    <div id="lightbox-modal" role="dialog" aria-modal="true">
+        <button class="lightbox-btn lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-btn lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-btn lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Master Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="header-brand navbar-brand" style="margin-bottom: 16px; display: inline-flex;">
+                    <div class="brand-logo-icon"><i class="fa-solid fa-gopuram"></i></div>
+                    <div class="brand-text-group">
+                        <span class="brand-title" style="color: var(--color-warm-sand);">RAMANATHAPURAM</span>
+                        <span class="brand-tagline" style="color: var(--color-ocean-light);">Where Heritage Meets the Sea</span>
+                    </div>
+                </a>
+                <p>Official district tourism and heritage exploration portal for Ramanathapuram, Tamil Nadu, India.</p>
+                <div class="footer-social-row">
+                    <a href="https://instagram.com/im__harsath" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/917339454474" target="_blank" rel="noopener" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:+917339454474" class="footer-social-btn"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About District</a></li>
+                    <li><a href="attractions.html">Attractions</a></li>
+                    <li><a href="places.html">Major Places</a></li>
+                    <li><a href="food.html">Coastal Food</a></li>
+                    <li><a href="contact.html">Contact & Location</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Top Attractions</h4>
+                <ul class="footer-links">
+                    <li><a href="attractions.html#ramanathaswamy">Ramanathaswamy Temple</a></li>
+                    <li><a href="attractions.html#pamban">Pamban Bridge</a></li>
+                    <li><a href="attractions.html#dhanushkodi">Dhanushkodi</a></li>
+                    <li><a href="attractions.html#kalam">Dr. Kalam Memorial</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>District Contacts</h4>
+                <p style="color: var(--color-warm-sand); font-weight: 600;">
+                    Harsath Ali A<br>
+                    Phone: +91 7339454474<br>
+                    Paramakudi, Tamil Nadu
+                </p>
+                <div style="margin-top: 14px;">
+                    <span style="font-size: 0.8rem; color: #9BB1BA; display: block;">Local IST Clock:</span>
+                    <span class="live-ist-clock" style="color: var(--color-warm-gold); font-weight: 700;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ramanathapuram District Tourism Portal. All rights reserved.</p>
+            <span>Partnered with <a href="https://www.tamilnadutourism.tn.gov.in/" target="_blank" rel="noopener">Tamil Nadu Tourism Development Corporation</a></span>
+        </div>
+    </footer>
+
+    <!-- Floating AUDIO Button -->
+    <button id="floating-audio-pill" class="floating-audio-pill" aria-label="Toggle ocean ambience" title="Toggle ocean ambience" aria-pressed="true">
+        <i class="fa-solid fa-volume-high"></i>
+        <span class="audio-pill-label">AUDIO</span>
+    </button>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- External Animation & Interactive Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Audio Ambience Engine -->
+    <script src="js/audio-ambience.js"></script>
+
+    <!-- Site Master Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!-- Mouse Tracking Cursor Glow (Positioned at bottom of DOM) -->
+    <div id="cursor-glow"></div>
+</body>
+</html>
